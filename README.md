@@ -3,6 +3,12 @@
 
 *Author: Juan Mesa <juanmesaruiz@gmail.com>*
 
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://juanmesaruiz.github.io/shopping-cart/)
+[![Coverage Status](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)](https://htmlpreview.github.io/?https://github.com/juanmesaruiz/shopping-cart/blob/master/coverage/lcov-report/index.html)
+[![GitHub version](https://img.shields.io/badge/version-1.0.0-cornflowerblue.svg)](https://github.com/juanmesaruiz/shopping-cart/blob/master/package.json)
+[![GitHub demo](https://img.shields.io/badge/demo-available-blue.svg)](https://juanmesaruiz.github.io/shopping-cart/)
+[![GitHub license](https://img.shields.io/badge/license-MIT-purple.svg)](https://github.com/juanmesaruiz/shopping-cart/blob/master/LICENSE.md)
+
 **Item catalog:**
 ```
 Code         | Name                |     Stock     |  Price
