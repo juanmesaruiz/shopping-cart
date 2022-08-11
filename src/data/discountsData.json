@@ -1,0 +1,16 @@
+{
+  "multipack-2-1": {
+    "code": "multipack",
+    "name": "2x1 Mug offer",
+    "items": ["MUG"],
+    "quantity": 2,
+    "discount": 1
+  },
+  "bulk-3-5": {
+    "code": "bulk",
+    "name": "x3 Shirt offer",
+    "items": ["TSHIRT"],
+    "quantity": 3,
+    "discount": 5
+  }
+}

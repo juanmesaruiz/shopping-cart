@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkout Should match snapshot 1`] = `
+.c0 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: calc(100% - 64px);
+  left: 50%;
+  max-height: 648px;
+  max-width: 1088px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: calc(100% - 64px);
+}
+
+<div>
+  <main
+    class="c0"
+  >
+    <div
+      aria-label="CheckoutProductList"
+    >
+      <p>
+        CheckoutProductList
+      </p>
+      <p>
+        {'checkout':{'cartItems':[],'discounts':[],'totalItems':0}}
+      </p>
+    </div>
+    <div
+      aria-label="CheckoutOrderSummary"
+    >
+      <p>
+        CheckoutOrderSummary
+      </p>
+      <p>
+        {'checkout':{'cartItems':[],'discounts':[],'totalItems':0}}
+      </p>
+    </div>
+    <div
+      aria-label="CheckoutProductDetails"
+    >
+      <p>
+        CheckoutProductDetails
+      </p>
+      <p>
+        {'checkout':{'cartItems':[],'discounts':[],'totalItems':0}}
+      </p>
+    </div>
+  </main>
+</div>
+`;

@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutProductDetails Should match snapshot 1`] = `
+.c0 {
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 .productDetails-image {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  text-align: center;
+  width: 826px;
+}
+
+.c0 .productDetails-image img {
+  max-height: 648px;
+  vertical-align: middle;
+}
+
+.c0 .productDetails-product-details {
+  width: calc(100% - 826px);
+  padding: 30px 20px;
+}
+
+.c0 .productDetails-product-details .productDetails-close {
+  font-size: 20px;
+  text-align: right;
+}
+
+.c0 .productDetails-product-details .productDetails-close button {
+  background: none;
+  cursor: pointer;
+}
+
+.c0 .productDetails-product-details .productDetails-name {
+  border-bottom: 1px solid #a6a7b3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-bottom: 15px;
+}
+
+.c0 .productDetails-product-details .productDetails-description {
+  border-bottom: 1px solid #a6a7b3;
+  color: #717285;
+  font-size: 16px;
+  height: 250px;
+  line-height: 1.5;
+  padding: 30px 0;
+}
+
+.c0 .productDetails-product-details .productDetails-ref {
+  color: #a6a7b3;
+  font-size: 14px;
+  padding: 30px 0;
+}
+
+.c0 .productDetails-product-details .productDetails-button {
+  margin-top: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  border-radius: 4px;
+  background: #7350ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 14px;
+  cursor: pointer;
+}
+
+.c0 .productDetails-product-details .productDetails-button:disabled {
+  background: #a6a7b3;
+  cursor: not-allowed;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <figure
+      class="productDetails-image"
+    >
+      <img
+        alt="T-shirt image"
+        src="assets/imgDetail/tshirt.jpg"
+      />
+    </figure>
+    <aside
+      class="productDetails-product-details"
+    >
+      <div
+        class="productDetails-close"
+      >
+        <button>
+          X
+        </button>
+      </div>
+      <div
+        class="productDetails-name"
+      >
+        <span>
+          T-Shirt
+        </span>
+        <span>
+          20
+           €
+        </span>
+      </div>
+      <div
+        class="productDetails-description"
+      >
+        Online Exclusive. Regular fit. Recycled viscose blend fabric. Lightweight fabric. Round neck.
+
+These products have been made with fibers and/or sustainable production processes, thus reducing their environmental impact.
+      </div>
+      <div
+        class="productDetails-ref"
+      >
+        Product code 
+        X7R2OPX
+      </div>
+      <button
+        class="productDetails-button"
+      >
+        Add to cart
+      </button>
+    </aside>
+  </div>
+</div>
+`;

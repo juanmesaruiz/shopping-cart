@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutProductListItem Should match snapshot 1`] = `
+<div>
+  <li
+    class="product row"
+  >
+    <div
+      class="col-product"
+    >
+      <figure
+        class="product-image"
+      >
+        <img
+          alt="T-shirt image"
+          src="assets/imgCatalog/tshirt.png"
+        />
+        <div
+          class="product-description"
+        >
+          <h1>
+            T-Shirt
+          </h1>
+          <p
+            class="product-code"
+          >
+            Product code 
+            X7R2OPX
+          </p>
+        </div>
+      </figure>
+    </div>
+    <div
+      class="col-quantity"
+    >
+      <button
+        class="count"
+      >
+        -
+      </button>
+      <input
+        aria-label="input-amount"
+        class="product-quantity"
+        max="99"
+        min="0"
+        type="number"
+        value="3"
+      />
+      <button
+        class="count"
+      >
+        +
+      </button>
+    </div>
+    <div
+      class="col-price"
+    >
+      <span
+        class="product-price"
+      >
+        20
+      </span>
+      <span
+        class="product-currency currency"
+      >
+        €
+      </span>
+    </div>
+    <div
+      class="col-total"
+    >
+      <span
+        class="product-price"
+      >
+        60
+      </span>
+      <span
+        class="product-currency currency"
+      >
+        €
+      </span>
+    </div>
+  </li>
+</div>
+`;
