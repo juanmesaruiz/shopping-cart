@@ -21,7 +21,7 @@ We allow the users the possibility of having some **discounts** applied when com
 **Functionalities:**
 - **Product details:** When clicking on a certain name product, a modal should show up with the details of the said item. User can add there product to cart by clicking on the *Add to cart* button. This modal can be closed clicking on *X* button or pressing *ESC* key.
 - **Stock:** every product has stock, if the product is out of stock or the user has added a quantity equal to the available stock of the product, it wil be not possible to add more quantity of this product and a message will appear to the screen informing the user about this, also the buttons of add product become disabled.
-- **Add to cart from product list: ** User can add to cart using + or - on product list or typing the desired amount of product in the input. If user types a number bigger than stock, the selected value must be the max stock of the product.
+- **Add to cart from product list:** User can add to cart using + or - on product list or typing the desired amount of product in the input. If user types a number bigger than stock, the selected value must be the max stock of the product.
 - **Pay:** When user added at least 1 item to chart, *Checkout* button becomes enabled and he/she can click on it to pay and clear the chart state. On click on it, checkout state must be restored.
 
 
