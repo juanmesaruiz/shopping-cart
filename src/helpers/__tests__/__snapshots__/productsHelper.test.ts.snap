@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`productsHelper getProduct Should get a Product 1`] = `
+Product {
+  "_code": "TSHIRT",
+  "_description": "Online Exclusive. Regular fit. Recycled viscose blend fabric. Lightweight fabric. Round neck.
+
+These products have been made with fibers and/or sustainable production processes, thus reducing their environmental impact.",
+  "_imgAlt": "T-shirt image",
+  "_imgCatalogSrc": "assets/imgCatalog/tshirt.png",
+  "_imgDetailSrc": "assets/imgDetail/tshirt.jpg",
+  "_name": "T-Shirt",
+  "_price": 20,
+  "_productCode": "X7R2OPX",
+  "_stock": 99,
+}
+`;
+
+exports[`productsHelper getProductCatalog Should match 1`] = `
+Array [
+  Product {
+    "_code": "TSHIRT",
+    "_description": "Online Exclusive. Regular fit. Recycled viscose blend fabric. Lightweight fabric. Round neck.
+
+These products have been made with fibers and/or sustainable production processes, thus reducing their environmental impact.",
+    "_imgAlt": "T-shirt image",
+    "_imgCatalogSrc": "assets/imgCatalog/tshirt.png",
+    "_imgDetailSrc": "assets/imgDetail/tshirt.jpg",
+    "_name": "T-Shirt",
+    "_price": 20,
+    "_productCode": "X7R2OPX",
+    "_stock": 99,
+  },
+  Product {
+    "_code": "MUG",
+    "_description": "Pantone 7664. Official color.",
+    "_imgAlt": "Mug image",
+    "_imgCatalogSrc": "assets/imgCatalog/mug.png",
+    "_imgDetailSrc": "assets/imgDetail/mug.jpg",
+    "_name": "Coffee Mug",
+    "_price": 5,
+    "_productCode": "X2G2OPZ",
+    "_stock": 99,
+  },
+  Product {
+    "_code": "CAP",
+    "_description": "Baseball type. Nylon. Buckle closure.",
+    "_imgAlt": "Cap image",
+    "_imgCatalogSrc": "assets/imgCatalog/cap.png",
+    "_imgDetailSrc": "assets/imgDetail/cap.jpg",
+    "_name": "Cap",
+    "_price": 10,
+    "_productCode": "X3W2OPY",
+    "_stock": 99,
+  },
+  Product {
+    "_code": "WATER",
+    "_description": "Old plastic bottle. All our new bottles are made of cardboard, they will contain 330 ml of water, as well as 70% renewable raw material.",
+    "_imgAlt": "Water bottle image",
+    "_imgCatalogSrc": "assets/imgCatalog/water.png",
+    "_imgDetailSrc": "assets/imgDetail/water.jpg",
+    "_name": "Water",
+    "_price": 0.5,
+    "_productCode": "X1M46NZ",
+    "_stock": 0,
+  },
+]
+`;

@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutOrderSummary Should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  padding: 40px 32px;
+  width: 312px;
+  background-color: #f3f3f3;
+  color: #212240;
+}
+
+.c0 > * {
+  width: 100%;
+}
+
+.c0 .summary-items-price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.c0 input {
+  margin: 8px auto;
+  color: #a6a7b3;
+  text-indent: 16px;
+  text-transform: uppercase;
+}
+
+.c0 input::-webkit-input-placeholder {
+  color: #a6a7b3;
+  text-transform: lowercase;
+}
+
+.c0 input::-moz-placeholder {
+  color: #a6a7b3;
+  text-transform: lowercase;
+}
+
+.c0 input:-ms-input-placeholder {
+  color: #a6a7b3;
+  text-transform: lowercase;
+}
+
+.c0 input::placeholder {
+  color: #a6a7b3;
+  text-transform: lowercase;
+}
+
+.c0 ul li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 ul li > *:nth-child(2) {
+  font-weight: bold;
+}
+
+.c0 ul li + li {
+  margin-top: 20px;
+}
+
+.c0 .summary-total {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  margin-top: auto;
+  padding-top: 16px;
+  padding-bottom: 0;
+  border-top: 1px solid rgba(33,34,64,0.16);
+  color: #212240;
+}
+
+.c0 .summary-total-cost {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  text-transform: uppercase;
+}
+
+.c0 .summary-total-price {
+  font-weight: bold;
+}
+
+.c0 button[type='submit'] {
+  margin-top: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  border-radius: 4px;
+  background: #7350ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 14px;
+  cursor: pointer;
+}
+
+.c0 button[type='submit']:disabled {
+  background: #a6a7b3;
+  cursor: not-allowed;
+}
+
+.c0 .summary-discounts-no-discounts {
+  color: #a6a7b3;
+  font-size: 12px;
+}
+
+.c0 .wrapper {
+  padding: 32px 0;
+}
+
+.c0 .wrapper-half {
+  padding: 24px 0;
+}
+
+<div>
+  <aside
+    class="c0"
+  >
+    <h1
+      class="main"
+    >
+      Order Summary
+    </h1>
+    <ul
+      class="summary-items wrapper border"
+    >
+      <li>
+        <span
+          class="summary-items-number"
+        >
+          8
+           Items
+        </span>
+        <span
+          class="summary-items-price"
+        >
+          90
+          <span
+            class="currency"
+          >
+            €
+          </span>
+        </span>
+      </li>
+    </ul>
+    <div
+      class="summary-discounts wrapper-half border"
+    >
+      <h2>
+        Discounts
+      </h2>
+      <ul>
+        <li>
+          <span>
+            x3 Shirt offer
+          </span>
+          <span>
+            -
+            3
+            €
+          </span>
+        </li>
+        <li>
+          <span>
+            2x1 Mug offer
+          </span>
+          <span>
+            -
+            10
+            €
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="summary-total wrapper"
+    >
+      <ul>
+        <li>
+          <span
+            class="summary-total-cost"
+          >
+            Total cost
+          </span>
+          <span
+            class="summary-total-price"
+          >
+            77
+            €
+          </span>
+        </li>
+      </ul>
+      <button
+        type="submit"
+      >
+        Checkout
+      </button>
+    </div>
+  </aside>
+</div>
+`;

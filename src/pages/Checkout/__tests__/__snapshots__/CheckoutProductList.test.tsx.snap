@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutProductList Should match snapshot 1`] = `
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 40px 32px 40px 56px;
+}
+
+.c0 .tableHead {
+  padding: 32px 0;
+}
+
+.c0 [class*='col-'] {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 [class*='col-']:nth-child(n + 2) {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .col-product {
+  width: 45%;
+}
+
+.c0 .col-quantity {
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  width: 20%;
+}
+
+.c0 .col-price {
+  width: 20%;
+}
+
+.c0 .col-total {
+  width: 15%;
+}
+
+.c0 input {
+  width: 100%;
+  height: 48px;
+  border-radius: 4px;
+}
+
+.c0 button.count {
+  padding: 0 8px;
+  height: 40px;
+  border: none;
+  background: transparent;
+  color: #7350ff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.c0 button.count:disabled {
+  color: #a6a7b3;
+  cursor: not-allowed;
+}
+
+.c0 .products-list {
+  position: relative;
+  width: 100%;
+}
+
+.c0 .product-image {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+}
+
+.c0 .product-image img {
+  margin-right: 16px;
+  width: 72px;
+  height: 72px;
+  border: 1px solid #cacad1;
+  border-radius: 4px;
+}
+
+.c0 .product-code {
+  border-radius: 4px;
+  color: #a6a7b3;
+  -webkit-letter-spacing: 0.13px;
+  -moz-letter-spacing: 0.13px;
+  -ms-letter-spacing: 0.13px;
+  letter-spacing: 0.13px;
+  font-weight: 400;
+}
+
+.c0 .product-quantity {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #dbdbe0;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.c0 .product-price {
+  color: #000000;
+  font-size: 16px;
+}
+
+.c0 .product .clear {
+  border: none;
+  background: transparent;
+}
+
+.c0 .product .clear span {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.c0 .product .clear span:before,
+.c0 .product .clear span:after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 2px;
+  display: block;
+  width: 12px;
+  height: 2px;
+  border-radius: 8px;
+  background-color: #a6a7b3;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.c0 .product .clear span:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 .product h1 {
+  color: #7350ff;
+  cursor: pointer;
+}
+
+.c0 .row {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 .row + .row {
+  margin-top: 32px;
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <h1
+      class="main"
+    >
+      Shopping cart
+    </h1>
+    <ul
+      class="products-list tableHead"
+    >
+      <li
+        class="products-list-title row"
+      >
+        <div
+          class="col-product"
+        >
+          Product details
+        </div>
+        <div
+          class="col-quantity"
+        >
+          Quantity
+        </div>
+        <div
+          class="col-price"
+        >
+          Price
+        </div>
+        <div
+          class="col-total"
+        >
+          Total
+        </div>
+      </li>
+    </ul>
+    <ul
+      class="products-list"
+    >
+      <div
+        aria-label="CheckoutProductListItem"
+      >
+        <p>
+          CheckoutProductListItem
+        </p>
+        <p>
+          {'checkout':{'cartItems':[],'discounts':[],'totalItems':0},'product':{'_code':'TSHIRT','_description':'Online Exclusive. Regular fit. Recycled viscose blend fabric. Lightweight fabric. Round neck.\\n\\nThese products have been made with fibers and/or sustainable production processes, thus reducing their environmental impact.','_imgAlt':'T-shirt image','_imgCatalogSrc':'assets/imgCatalog/tshirt.png','_imgDetailSrc':'assets/imgDetail/tshirt.jpg','_name':'T-Shirt','_price':20,'_productCode':'X7R2OPX','_stock':99}}
+        </p>
+      </div>
+      <div
+        aria-label="CheckoutProductListItem"
+      >
+        <p>
+          CheckoutProductListItem
+        </p>
+        <p>
+          {'checkout':{'cartItems':[],'discounts':[],'totalItems':0},'product':{'_code':'MUG','_description':'Pantone 7664. Official color.','_imgAlt':'Mug image','_imgCatalogSrc':'assets/imgCatalog/mug.png','_imgDetailSrc':'assets/imgDetail/mug.jpg','_name':'Coffee Mug','_price':5,'_productCode':'X2G2OPZ','_stock':99}}
+        </p>
+      </div>
+      <div
+        aria-label="CheckoutProductListItem"
+      >
+        <p>
+          CheckoutProductListItem
+        </p>
+        <p>
+          {'checkout':{'cartItems':[],'discounts':[],'totalItems':0},'product':{'_code':'CAP','_description':'Baseball type. Nylon. Buckle closure.','_imgAlt':'Cap image','_imgCatalogSrc':'assets/imgCatalog/cap.png','_imgDetailSrc':'assets/imgDetail/cap.jpg','_name':'Cap','_price':10,'_productCode':'X3W2OPY','_stock':99}}
+        </p>
+      </div>
+      <div
+        aria-label="CheckoutProductListItem"
+      >
+        <p>
+          CheckoutProductListItem
+        </p>
+        <p>
+          {'checkout':{'cartItems':[],'discounts':[],'totalItems':0},'product':{'_code':'WATER','_description':'Old plastic bottle. All our new bottles are made of cardboard, they will contain 330 ml of water, as well as 70% renewable raw material.','_imgAlt':'Water bottle image','_imgCatalogSrc':'assets/imgCatalog/water.png','_imgDetailSrc':'assets/imgDetail/water.jpg','_name':'Water','_price':0.5,'_productCode':'X1M46NZ','_stock':0}}
+        </p>
+      </div>
+    </ul>
+  </section>
+</div>
+`;

@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Shopping cart
+*TypeScript + ReactJs + Redux*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*Author: Juan Mesa <juanmesaruiz@gmail.com>*
 
-## Available Scripts
+**Item catalog:**
+```
+Code         | Name                |     Stock     |  Price
+------------------------------------------------------------
+TSHIRT       | T-Shirt             |        99     |  20.00€
+MUG          | Coffee Mug          |        99     |   5.00€
+CAP          | Cap                 |        99     |  10.00€
+WATER        | Water               |         0     |   0.50€
+```
 
-In the project directory, you can run:
+We allow the users the possibility of having some **discounts** applied when combining the products in the following ways:
 
-### `npm start`
+- 2-for-1 promotions: (for `MUG` items). Buy two of them, get one free. (e.g: pay 10€ for 4 mugs)
+- Bulk discounts: (for `TSHIRT` items). Buying 3 or more of this product, the price per unit is reduced by 5%. (e.g: if you buy 3 or more `TSHIRT` items, the price per unit should be 19.00€)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Functionalities:**
+- **Product details:** When clicking on a certain name product, a modal should show up with the details of the said item. User can add there product to cart by clicking on the *Add to cart* button. This modal can be closed clicking on *X* button or pressing *ESC* key.
+- **Stock:** every product has stock, if the product is out of stock or the user has added a quantity equal to the available stock of the product, it wil be not possible to add more quantity of this product and a message will appear to the screen informing the user about this, also the buttons of add product become disabled.
+- **Add to cart from product list: ** User can add to cart using + or - on product list or typing the desired amount of product in the input. If user types a number bigger than stock, the selected value must be the max stock of the product.
+- **Pay:** When user added at least 1 item to chart, *Checkout* button becomes enabled and he/she can click on it to pay and clear the chart state. On click on it, checkout state must be restored.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+**Scripts:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Before use any of this scripts you should run **yarn install** to install all the required dependencies to run the project.
+-  **start** : Starts the server.
+-  **test** : Run all tests.
+- **build** : Builds a package ready to be deployed.
